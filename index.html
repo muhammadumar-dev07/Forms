@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms Tables Sections</h1>
+    <h2>HTML Forms</h2>
+
+    <form action="submit">
+      <input type="text" placeholder="Enter your name" required /> <br />
+      <input
+        type="number"
+        placeholder="age"
+        name=""
+        id=""
+        min="0"
+        max="25"
+        required
+      /><br />
+      <input type="password" placeholder="Enter password" required /><br />
+      <input type="datetime-local" name="" id="" />
+      <input type="month" name="" id="" />
+      <input type="week" name="" id="" /><br />
+      <input type="color" name="color" id="" />
+      <input type="range" /><br />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" /><br />
+      <input
+        type="checkbox"
+        name="subscription"
+        id=""
+        placeholder="subscription"
+      />Subscription <br />
+
+      <select name="Phones" id="" title="Phones" required>
+        <option value="">select your phone model</option>
+        <option value="samsung">samsung</option>
+        <option value="Iphone">Iphone</option>
+        <option value="Vivo">Vivo</option>
+        <option value="RealMe">RealMe</option>
+      </select>
+      <button type="submit">submit</button>
+    </form>
+
+    <h2>HTML Tables</h2>
+
+    <table>
+      
+        <thead>
+          <tr>
+            <th>Emp ID</th>
+            <th>Emp name</th>
+            <th>Emp dept.</th>
+            <th>Emp salary</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Umar</td>
+                <td>IT</td>
+                <td>50k</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td colspan="2">Salman</td>
+                <td>45k</td>
+            </tr>
+            <tr>
+                <td>Salman</td>
+                <td>Finance</td>
+                <td>70k</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Salaries Amount:</td>
+                <td>165K</td>
+            </tr>
+        </tfoot>
+    </table>
+  </body>
+</html>
